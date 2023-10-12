@@ -7,12 +7,12 @@
 }
 
 body {
-    background-color: purple;
+    background-color: #ecf8f8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-    background-color: yellow;
+    background-color: #e6beae;
     height: 200px;
     padding: 20px 0;
 }
@@ -60,20 +60,20 @@ nav a {
 
 main {
     width: 62%;
-    background-color: lightblue;
+    background-color: #e7d8c9;
     float: left;
 }
 
 aside{
     width: 35%;
-    background-color: lightpink;
+    background-color: #eee4e1;
     float: right;
 }
 
 footer {
     height: 60px;
     line-height: 60px;
-    background-color: lightslategrey;
+    background-color: #e6beae;
     clear: both;
 }
 
@@ -86,6 +86,7 @@ footer ul {
 footer li {
     justify-content: center;
     margin: 0 15px;
+    color: #ecf8f8;
 }
 
 img {
