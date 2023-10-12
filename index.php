@@ -55,6 +55,16 @@
                             <li><a href="weeks/week2/currency-logic.php">Currency-Logic</a>
                             <li><a href="weeks/week2/currency.php">Currency</a>
                         </ul>
+
+                        <h3>Week 3</h3>
+                        <ul>
+                            <li><a href="weeks/week3/date.php">Date</a>
+                            <li><a href="weeks/week3/for-each.php">For-Each</a>
+                            <li><a href="weeks/week3/for-loop.php">For-Loop</a>
+                            <li><a href="weeks/week3/if.php">If</a>
+                            <li><a href="weeks/week3/index.php">Index</a>
+                            <li><a href="weeks/week3/switch.php">Switch</a>
+                        </ul>
                     </div>
                 </div>
             </aside>
