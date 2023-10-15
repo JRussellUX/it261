@@ -57,11 +57,11 @@
         
             </tr>
             <?php
-            for($cel = 0; $cel <= 100; $cel += 2) {
+            for($cel = 0; $cel <= 100; $cel += 3) {
                 $far =($cel * 9/5) + 32;
                 echo '<tr>';
                 echo '<td>'.$cel.' degrees </td>';
-                echo '<td> '.$far.' degrees </td>';
+                echo '<td> '.intval($far).' degrees </td>';
                 echo '</tr>';
             }
             ?>
@@ -81,7 +81,7 @@
                 $mil =($kil * .621371);
                 echo '<tr>';
                 echo '<td>'.$kil.' Kilometers </td>';
-                echo '<td> '.number_format($mil, 2).' Miles </td>';
+                echo '<td> '.number_format($mil, 1).' Miles </td>';
                 echo '</tr>';
             }
             ?>
