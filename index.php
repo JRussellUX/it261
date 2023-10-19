@@ -71,7 +71,7 @@
                             <li><a href="weeks/week4/form1.php">Form 1</a>
                             <li><a href="weeks/week4/form2.php">Form 2</a>
                             <li><a href="weeks/week4/form3.php">Form 3</a>
-                            <li><a href="weeks/week4/if.php">Form-Get</a>
+                            <li><a href="weeks/week4/form-get.php">Form-Get</a>
                             <li><a href="weeks/week4/celsius.php">Celsius Form</a>
                             <li><a href="weeks/week4/arithmetic-form.php">Arithmetic Form</a>
                         </ul>
