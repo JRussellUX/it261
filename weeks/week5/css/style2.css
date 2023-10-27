@@ -1,0 +1,92 @@
+/* styles for my currency4 form*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #113946;
+}
+
+body {
+    background: #FFF2D8;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #113946; 
+}
+
+input[type=text],
+input[type=email], 
+input[type=number] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 75px;
+    border-radius: 5px;
+    background: #113946;
+    color: #FFF2D8;
+    font-weight: bold;
+}
+
+select {
+    display: block;
+    margin-bottom: 10px;
+    background: #113946;
+    color: white;
+}
+
+form ul {
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer {
+    height: 60px;
+    line-height: 60px;
+    background-color: transparent;
+    clear: both;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer li {
+    justify-content: center;
+    margin: 0 15px;
+    color: #535353;
+}
