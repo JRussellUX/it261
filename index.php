@@ -17,7 +17,7 @@
             <li><a href="website/daily.php">Switch</a></li>
             <li><a href="adder.php">Troubleshoot</a></li>
             <li><a href="./weeks/week5/calculator.php">Calculator</a></li>
-            <li><a href="">Email</a></li>
+            <li><a href="website/contactf.php">Email</a></li>
             <li><a href="">Database</a></li>
             <li><a href="">Gallery</a></li>
             </ul>
@@ -83,7 +83,21 @@
                             <li><a href="weeks/week5/currency3.php">Currency 3</a>
                             <li><a href="weeks/week5/null.php">Learn NULL</a>
                             <li><a href="weeks/week5/currency4.php">Currency 4/Extra Credit</a>
-                            
+                        </ul>
+
+                        <h3>Week 6</h3>
+                        <ul>
+                            <li><a href="weeks/week6/form.php">Form</a>
+                            <li><a href="weeks/week6/form2.php">Form 2</a>
+                            <li><a href="weeks/week6/functions.php">Functions</a>
+                        </ul>
+
+                        <h3>Week 7</h3>
+                        <ul>
+                            <li><a href="weeks/week7/form3.php">Form 3</a>
+                            <li><a href="weeks/week7/pictures.php">Form 2</a>
+                            <li><a href="weeks/week7/rand.php">Rand Function</a>
+                            <li><a href="weeks/week7/strings.php">Strings</a>
                         </ul>
                     </div>
                 </div>
