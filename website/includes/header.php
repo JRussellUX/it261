@@ -1,51 +1,3 @@
-<?php
-    define('THIS_PAGE', basename($_SERVER['PHP_SELF']));
-
-    switch(THIS_PAGE) {
-        case 'index.php' :
-            $title = 'Home Page of our Website Project';
-            $body = 'Home';
-            break;
-
-        case 'about.php' :
-            $title = 'About Page of our Website Project';
-            $body = 'about inner';
-            break;
-
-        case 'daily.php' :
-            $title = 'Daily Page of our Website Project';
-            $body = 'daily inner';
-            break;
-
-        case 'project.php' :
-            $title = 'Project Page of our Website Project';
-            $body = 'project inner';
-            break;
-
-        case 'contact.php' :
-            $title = 'Contact Page of our Website Project';
-            $body = 'contact inner';
-            break;
-
-        case 'gallery.php' :
-            $title = 'Gallery Page of our Website Project';
-            $body = 'gallery inner';
-            break;
-    }
-// our navigation array
-$nav = array(
-    'index.php' => 'Home',
-    'about.php' => 'About',
-    'daily.php' => 'Daily',
-    'project.php' => 'Project',
-    'contact.php' => 'Contact',
-    'gallery.php' => 'Gallery'
-);
-
-
-
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,19 +29,7 @@ $nav = array(
 <nav>
     <ul>
         <?php
-        foreach($nav as $key => $value) {
-            if(THIS_PAGE == $key) {
-                echo '<li><a style="color:#b2967d;" href=" '.$key.'"> '.$value.'</a></li>';
-            } else {
-                echo '<li><a style="color:#ecf8f8;" href=" '.$key.'"> '.$value.'</a></li>';
-            }
-        
-        
-        } // end foreach
-
-
-
-
+        echo make_links($nav);
         ?>
     </ul>
 </nav>
