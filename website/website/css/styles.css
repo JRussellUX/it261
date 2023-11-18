@@ -1,0 +1,183 @@
+/* Style code for my website */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ecf8f8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #e6beae;
+    height: 200px;
+    padding: 20px 0;
+}
+
+.inner-header {
+    max-width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#logo {
+    width: 150px;
+    float: left;
+}
+
+
+nav ul {
+    float: right;
+    margin: 30px;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+    clear: both;
+    overflow: hidden;
+}
+
+#hero {
+    height: 508px;
+    background-color: red;
+    margin-bottom: 20px;
+
+}
+
+main {
+    width: 62%;
+    background-color: #e7d8c9;
+    float: left;
+}
+
+aside{
+    width: 35%;
+    background-color: #eee4e1;
+    float: right;
+}
+
+footer {
+    height: 60px;
+    line-height: 60px;
+    background-color: #e6beae;
+    clear: both;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer li {
+    justify-content: center;
+    margin: 0 15px;
+    color: #ecf8f8;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* typography */
+p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+    font-family: serif;
+}
+
+
+/*CSS for Contact Form*/
+
+/* CSS for Contact.php*/
+
+form {
+    width: 500px;
+    margin: 30px auto;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+span {
+    display: block;
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+form ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+/* Table Styles */
+
+table {
+    border: 1px dotted black;
+    border-collapse: collapse;
+    
+}
+
+td {
+    border: 1px dotted black;
+    padding: 10px;
+    text-align: center;
+}
+
