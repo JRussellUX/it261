@@ -1,0 +1,4 @@
+[16-Nov-2023 16:01:00 America/Chicago] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/donny/public_html/jrussellux.com/it261/weeks/week8/people.php on line 8
+[16-Nov-2023 16:01:00 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/donny/public_html/jrussellux.com/it261/weeks/week8/people.php on line 8
+[16-Nov-2023 16:03:03 America/Chicago] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/donny/public_html/jrussellux.com/it261/weeks/week8/people.php on line 8
+[16-Nov-2023 16:03:03 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/donny/public_html/jrussellux.com/it261/weeks/week8/people.php on line 8
