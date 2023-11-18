@@ -99,6 +99,12 @@
                             <li><a href="weeks/week7/rand.php">Rand Function</a>
                             <li><a href="weeks/week7/strings.php">Strings</a>
                         </ul>
+
+                        <h3>Week 8</h3>
+                        <ul>
+                            <li><a href="weeks/week8/people.php">People</a>
+                            <li><a href="weeks/week8/people-view.php">People View</a>
+                        </ul>
                     </div>
                 </div>
             </aside>
