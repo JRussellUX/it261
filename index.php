@@ -105,6 +105,13 @@
                             <li><a href="weeks/week8/people.php">People</a>
                             <li><a href="weeks/week8/people-view.php">People View</a>
                         </ul>
+
+                        <h3>Week 9</h3>
+                        <ul>
+                            <li><a href="weeks/week9/register.php">Register</a>
+                            <li><a href="weeks/week9/login.php">Login</a>
+                            <li><a href="weeks/week9/index.php">Index Page</a>
+                        </ul>
                     </div>
                 </div>
             </aside>
